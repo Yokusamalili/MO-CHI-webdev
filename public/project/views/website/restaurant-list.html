@@ -1,0 +1,52 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <p class="navbar-text pull-right">
+            <a class="navbar-link" href="#/user/{{model.userId}}/website/new">
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+        </p>
+        <p class="navbar-text pull-left">
+            <a href="#/user/{{model.userId}}" class="navbar-link">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+        </p>
+        <div class="navbar-header">
+            <a class="navbar-brand">Waitless</a>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container-fluid contentPadding">
+    <ul class="list-group" style="list-style-type: none">
+        <li ng-repeat="rest in model.rests" class="list-group-item">
+            {{rest.name}}
+        </li>
+        <li>
+            <a href="../page/detail.html"><h1>Domino's Pizza <span class="label">waiting time</span></h1>
+            </a>
+        </li>
+    </ul>
+
+    <ul>
+        <div class="panel-group">
+            <div class="panel panel-default">
+               <a href="#/user/{{model.userId}}/restaurant/{{model.restId}}/detail"><div class="panel-heading">Domino's</div></a>
+                <div class="panel-body">Toro</div>
+                <div class="panel-heading">Five Guys</div>
+                <div class="panel-body">Leagal Seafood</div>
+                <div class="panel-heading">Sushi Cafe</div>
+                <div class="panel-body">Taipei Cusine</div>
+            </div>
+    </ul>
+</div>
+
+<footer class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+        <div class="navbar-text pull-right">
+            <a class="navbar-link" href="#/user/{{model.userId}}">
+                <span class="glyphicon glyphicon-user"></span>
+            </a>
+        </div>
+    </div>
+</footer>

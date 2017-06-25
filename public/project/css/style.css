@@ -1,9 +1,9 @@
 .navbar-default {
-    background-color: #4e70cc;
-    border-color: #4e70cc;
+    background-color: #ff6e56;
+    border-color: #ff6e56;
 }
 .navbar-fixed-bottom {
-    background-color: #4e70cc;
+    background-color: #ff6e56;
 }
 
 .navbar-default .navbar-brand {
@@ -21,8 +21,8 @@
 body {
     padding-top: 40px;
     padding-bottom: 56px;
-    background-color: #a8abcc;
-    background-image: url("../imgs/bg.jpg");
+    /*background-color: #a8abcc;*/
+    background-image: url("../imgs/asian-food-6.jpg");
 }
 
 input.form-control {

@@ -6,7 +6,7 @@
             </a>
         </p>
         <div class="navbar-header">
-            <a class="navbar-brand">{{model.user.username}}'s Profile</a>
+            <a class="navbar-brand">{{model.user.first}}'s Profile</a>
         </div>
     </div>
 </nav>
@@ -33,9 +33,11 @@
     </form>
 
     <a class="btn btn-primary btn-block"
-       href="#/user/{{model.user._id}}/website">Websites</a>
+       href="#/user/{{model.user._id}}/restaurant">Go Waitless!</a>
     <a class="btn btn-danger  btn-block"
        href="#/login">Logout</a>
+    <a class="btn btn-warning  btn-block"
+       href="#/login">My Waiting List</a>
 
 </div>
 

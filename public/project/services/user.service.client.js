@@ -1,5 +1,5 @@
 /**
- * Created by Haonan on 10/17/2016.
+ * Created by Moira on 6/20/2017.
  */
 (function () {
     angular
@@ -8,10 +8,9 @@
     
     function UserService() {
         var users = [
-            {username:"alice", password:"qqqqq", _id:"111", first:"Alice", last:"wonderland", emailaddress:"aaa@gmail.com"},
-            {username:"bob", password:"st" ,_id:"222", first:"bob", last:"delen", emailaddress:"bbb@gmail.com"},
-            {username:"char", password:"123", _id :"333", first:"char", last:"wod", emailaddress:"bdb@gmail.com"},
-            {username:"dan", password:"3435", _id:"444", first:"dan", last:"and", emailaddress:"ddd@gmail.com"}
+            {username:"alice", password:"alice", _id:"111", first:"Alice", last:"wonderland", emailaddress:"aaa@gmail.com"},
+            {username:"bob", password:"bob" ,_id:"222", first:"bob", last:"delen", emailaddress:"bbb@gmail.com"},
+            {username:"dd", password:"dd", _id:"000", first:"John", last:"Wick", emailaddress:"wick.j@gmail.com"}
         ];
 
         var api = {

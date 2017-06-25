@@ -1,5 +1,5 @@
 /**
- * Created by Haonan on 10/19/2016.
+ * Created by Moira on 6/20/2017.
  */
 (function () {
     angular

@@ -1,5 +1,5 @@
 /**
- * Created by Haonan on 10/12/2016.
+ * Created by Moira on 6/20/2017.
  */
 (function() {
     angular
@@ -34,27 +34,33 @@
                 controllerAs:"model"
             })
 
-
-            .when("/user/:uid/website", {
-                templateUrl: "views/website/website-list.view.client.html",
-                controller: "WebsiteListController",
-                controllerAs: "model"
-            })
-            .when("/user/:uid/website/new", {
-                templateUrl: "views/website/website-new.view.client.html",
-                controller: "WebsiteNewController",
-                controllerAs: "model"
+            .when("/user/:uid/restaurant", {
+                templateUrl: "views/website/restaurant-list.html",
+                controller:"RestaurantListController",
+                controllerAs:"model"
             })
 
-            .when("/user/:uid/website/:wid", {
-                templateUrl: "views/website/website-edit.view.client.html",
-                controller: "WebsiteEditController",
-                controllerAs: "model"
-            })
+            //
+            // .when("/user/:uid/website", {
+            //     templateUrl: "views/website/restaurant-list.html",
+            //     controller: "WebsiteListController",
+            //     controllerAs: "model"
+            // })
+            // .when("/user/:uid/website/new", {
+            //     templateUrl: "views/website/website-new.view.client.html",
+            //     controller: "WebsiteNewController",
+            //     controllerAs: "model"
+            // })
+            //
+            // .when("/user/:uid/restaurants/:rid", {
+            //     templateUrl: "views/website/website-edit.view.client.html",
+            //     controller: "WebsiteEditController",
+            //     controllerAs: "model"
+            // })
 
 
-            .when("/user/:uid/website/:wid/page", {
-                templateUrl: "views/page/page-list.view.client.html",
+            .when("/user/:uid/restaurant/:rid/detail", {
+                templateUrl: "views/page/detail.html",
                 controller: "PageListController",
                 controllerAs: "model"
             })

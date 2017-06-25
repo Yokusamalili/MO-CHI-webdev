@@ -1,13 +1,15 @@
 (function(){
     angular
         .module("WebAppMaker")
-        .factory("WebsiteService", WebsiteService);
+        .factory("WaitlessService", WaitlessService);
 
-    function WebsiteService() {
-        var websites = [
-            {_id: 1000, name: 'facebook.com', uid: 111},
-            {_id: 2000, name: 'wikipedia.org', uid: 222},
-            {_id: 3000, name: 'twitter.com', uid: 222}
+    function WaitlessService() {
+        var rest = [
+            {_id: 1, name: "Toro", locat: "1704 Washington St, Boston, MA 02118", type: "Spanish", uid: 000},
+            {_id: 1, name: "Toro", locat: "1704 Washington St, Boston, MA 02118", type: "Spanish", uid: 000},
+            {_id: 1, name: "Toro", locat: "1704 Washington St, Boston, MA 02118", type: "Spanish", uid: 000},
+            {_id: 1, name: "Toro", locat: "1704 Washington St, Boston, MA 02118", type: "Spanish", uid: 000},
+            {_id: 1, name: "Toro", locat: "1704 Washington St, Boston, MA 02118", type: "Spanish", uid: 000}
         ];
 
         var api = {

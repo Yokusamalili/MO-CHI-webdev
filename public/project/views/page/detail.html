@@ -1,0 +1,31 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <p class="navbar-text pull-right">
+            <a class="navbar-link" href="#/user/{{model.userId}}/website/{{model.websiteId}}/page/new">
+                <span class="glyphicon glyphicon-plus"></span>
+            </a>
+        </p>
+        <p class="navbar-text pull-left">
+            <a class="navbar-link" href="#/user/{{model.userId}}/website">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+        </p>
+        <div class="navbar-header">
+            <a class="navbar-brand">{{model.rest.name}}</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid contentPadding">
+    <p> {{model.details}}</p>
+</div>
+
+<footer class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container-fluid">
+        <div class="navbar-text pull-right">
+            <a class="navbar-link" href="#/user/{{model.userId}}">
+                <span class="glyphicon glyphicon-user"></span>
+            </a>
+        </div>
+    </div>
+</footer>

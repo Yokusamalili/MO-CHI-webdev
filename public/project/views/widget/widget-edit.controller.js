@@ -1,5 +1,6 @@
-//Created by Haonan on 10/20/2016.
-
+/**
+ * Created by Moira on 6/20/2017.
+ */
 (function(){
     angular
         .module("WebAppMaker")
