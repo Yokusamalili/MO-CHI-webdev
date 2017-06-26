@@ -1,11 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Waitless</title>
-</head>
+<html>
+<title>Web Dev Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
-<h1> Waitless</h1>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card-2">
+        <a href="#home" class="w3-bar-item w3-button"><b>Chi Mo</b> Web Dev Home</a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+            <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="imgs/foodBg.jpg" alt="bg" width="1500" height="500">
+    <div class="w3-display-middle w3-margin-top w3-center">
+        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Chi Mo</b></span> <span class="w3-hide-small w3-text-light-grey"></span></h1>
+    </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+    <!-- Project Section -->
+    <div class="w3-container w3-padding-32" id="projects">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Works</h3>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">Assignment</div>
+                <a href="assignment/index.html"> <img src="imgs/" alt="House" style="width:100%"></a>
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+                <img src="/w3images/house2.jpg" alt="House" style="width:100%">
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
+                <img src="/w3images/house3.jpg" alt="House" style="width:100%">
+            </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-black w3-padding">GitHub</div>
+                <a href="https://github.com/Yokusamalili"><img src="imgs/github-mark.png" alt="House" style="width:99%"></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32" id="about">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+        <p>My name is Chi Mo and I'm graduating in this summer and Web Dev is my last class in college. My major is
+            information science and I had done two co-ops, one was at Harvard School of Public Health as an IT
+            specialist and the second was at Dell EMC as a software engineer. I had done projects for OOD, Network, HCI
+            and some other CS classes.
+        </p>
+    </div>
+
+    <div class="w3-row-padding w3-grayscale">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+            <img src="../Me.JPG" alt="Chi" style="width:100%">
+            <h3>Chi Mo</h3>
+            <p class="w3-opacity">Northeastern University</p>
+            <p>BS in Information Science '17, Master Canidate in Information Security</p>
+        </div>
+    </div>
+
+    <!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+    <p>By <a title="W3.CSS" target="_blank" class="w3-hover-text-green">Chi Mo</a></p>
+</footer>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
 
 </body>
 </html>
